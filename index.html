@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo logo">
+        <img src="/" alt="" class="logo" width="" height="" loading="lazy" />
+      </div>
+      <div class="header__right-menu">
+        <a href="/" class="header__login">Вход и регестрация</a>
+        <button class="header__button button">Подать объявление</button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="section container">
+        <div class="search">
+          <div class="search__input field">
+            <input
+              type="text"
+              class="field"
+              placeholder="Поиск по объявлениям"
+            />
+            <button class="search__button button">Найти</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="cards">
+          <h2 class="cards__title">Рекомендации для вас</h2>
+          <ul class="cards__list card">
+            <li class="card__item">
+              <a href="/" class="card__link">
+                <div class="card__image">
+                  <img src="/" alt="" />
+                </div>
+                <div class="card__body">
+                  <h3 class="card__body-title">Пвх материал 2й сорт</h3>
+                  <span class="card__body-price">170 Р</span>
+                  <p class="card__body-address">Казань, р-н Вахитовский</p>
+                  <p class="card__body-date">10 июля 11:39</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="services">
+          <h2 class="services__title">Сервисы и услуги</h2>
+          <ul class="services__list">
+            <li class="services__item">
+              <!-- svg -->
+              <h3 class="services__item-title">Доставка</h3>
+              <p class="services__item-description">
+                Проверка при получении и возможность вернуть товар
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
