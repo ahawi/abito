@@ -1,0 +1,12 @@
+@use "../vars";
+@use "../mixins";
+
+.button {
+  @include mixins.reset-button;
+
+  height: 36px;
+  background-color: vars.$color-accent;
+  color: vars.$color-light;
+  padding-inline: 15px;
+  border-radius: vars.$border-radius;
+}

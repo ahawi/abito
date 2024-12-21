@@ -1,0 +1,51 @@
+@use "mixins";
+@use "vars";
+@use "media";
+
+body {
+  font-size: 14px;
+  font-family: vars.$font-family;
+  font-weight: 400;
+  line-height: 1.2;
+  color: vars.$color-dark;
+  background-color: vars.$color-light;
+}
+
+a,
+button,
+input,
+svg * {
+  transition-duration: vars.$transition-duration;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 24px;
+
+  @include media.mobile {
+    font-size: 18px;
+  }
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+}

@@ -4,7 +4,10 @@
 @use "utils";
 @use "mixins";
 @use "media";
+@use "globals";
 
 @use "./blocks/card" as card;
 @use "./blocks/cards" as cards;
 @use "./blocks/services" as services;
+@use "./blocks/header" as header;
+@use "./blocks/button" as button;
