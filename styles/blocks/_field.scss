@@ -1,0 +1,13 @@
+@use "../vars";
+
+.field {
+  width: 100%;
+  border: 3px solid vars.$color-accent;
+  border-radius: vars.$border-radius;
+
+  &__input {
+    width: 100%;
+    height: vars.$input-height;
+    border-radius: vars.$border-radius;
+  }
+}
