@@ -4,3 +4,7 @@
 @use "utils";
 @use "mixins";
 @use "media";
+
+@use "./blocks/card" as card;
+@use "./blocks/cards" as cards;
+@use "./blocks/services" as services;
