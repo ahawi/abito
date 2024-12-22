@@ -9,5 +9,7 @@
     width: 100%;
     height: vars.$input-height;
     border-radius: vars.$border-radius;
+    border: none;
+    padding-inline: 22px;
   }
 }

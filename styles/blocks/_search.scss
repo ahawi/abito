@@ -6,9 +6,11 @@
   align-items: center;
   background-color: vars.$color-accent;
   border-radius: vars.$border-radius;
+  margin-bottom: 45px;
 
   &__input {
     width: 100%;
+    border: none;
   }
 
   &__button {
@@ -16,7 +18,8 @@
     display: flex;
     align-items: center;
     padding-right: 20px;
-    padding-left: 18px;
+    padding-left: 17px;
     column-gap: 6px;
+    font-size: 16px;
   }
 }
