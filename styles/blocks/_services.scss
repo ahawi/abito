@@ -1,6 +1,9 @@
 @use "../vars";
 
 .services {
+  display: flex;
+  flex-direction: column;
+
   &__title {
     padding-bottom: 23px;
     margin-top: 9px;
@@ -38,10 +41,11 @@
   }
 
   &__copyright {
+    margin-top: auto;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     row-gap: 8px;
-    margin-top: 120px;
     color: vars.$color-gray;
 
     &-link {
