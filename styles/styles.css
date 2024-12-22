@@ -400,4 +400,29 @@ p {
   justify-content: space-between;
   -moz-column-gap: 30px;
        column-gap: 30px;
+}
+
+.page {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.page__body-title {
+  padding-bottom: 25px;
+}
+.page__body-description {
+  padding-top: 20px;
+  line-height: 1.6;
+}
+.page__right-price {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.page__right-button {
+  width: 264px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */
