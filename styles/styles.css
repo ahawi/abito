@@ -227,6 +227,7 @@ h4 {
 
 h1 {
   font-size: 24px;
+  font-weight: 700;
 }
 @media (max-width: 767px) {
   h1 {
@@ -236,14 +237,88 @@ h1 {
 
 h2 {
   font-size: 18px;
+  font-weight: 700;
 }
 
 h3 {
+  font-weight: 700;
   font-size: 16px;
 }
 
 p {
   font-size: 14px;
+}
+
+.card__image {
+  border-radius: 10px;
+  width: 264px;
+}
+.card__body-title {
+  color: #256eeb;
+  padding-top: 12px;
+}
+.card__body-price {
+  font-weight: 700;
+  padding-top: 5px;
+  font-size: 16px;
+}
+.card__body-address {
+  color: #c4c4c4;
+  padding-top: 10px;
+}
+.card__body-date {
+  color: #c4c4c4;
+  padding-top: 4px;
+}
+
+.cards__title {
+  padding-bottom: 25px;
+}
+.cards__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 40px;
+}
+
+.services__title {
+  padding-bottom: 23px;
+  margin-top: 9px;
+}
+.services__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  padding-bottom: 37px;
+  border-bottom: 1px solid #c4c4c4;
+  width: 264px;
+}
+.services__item-icon {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.services__item-title {
+  padding-top: 7px;
+  font-size: 14px;
+}
+.services__item-description {
+  padding-top: 5px;
+  max-width: 217px;
+}
+.services__item-description:nth-child(3) {
+  max-width: 231px;
+}
+.services__copyright {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-top: 120px;
+  color: #c4c4c4;
+}
+.services__copyright-link {
+  text-decoration: underline;
 }
 
 .header {
@@ -304,4 +379,11 @@ p {
   border-radius: 5px;
   border: none;
   padding-inline: 22px;
+}
+
+.section__body {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
 }/*# sourceMappingURL=styles.css.map */

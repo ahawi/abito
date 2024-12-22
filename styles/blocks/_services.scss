@@ -1,0 +1,51 @@
+@use "../vars";
+
+.services {
+  &__title {
+    padding-bottom: 23px;
+    margin-top: 9px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-bottom: 37px;
+    border-bottom: 1px solid vars.$color-gray;
+    width: 264px;
+  }
+
+  &__item {
+    &-icon {
+      height: 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    &-title {
+      padding-top: 7px;
+      font-size: 14px;
+    }
+
+    &-description {
+      padding-top: 5px;
+      max-width: 217px;
+
+      &:nth-child(3) {
+        max-width: 231px;
+      }
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-top: 120px;
+    color: vars.$color-gray;
+
+    &-link {
+      text-decoration: underline;
+    }
+  }
+}

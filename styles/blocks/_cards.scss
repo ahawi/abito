@@ -1,0 +1,12 @@
+.cards {
+  &__title {
+    padding-bottom: 25px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 40px;
+  }
+}

@@ -32,6 +32,7 @@ h4 {
 
 h1 {
   font-size: 24px;
+  font-weight: 700;
 
   @include media.mobile {
     font-size: 18px;
@@ -40,9 +41,12 @@ h1 {
 
 h2 {
   font-size: 18px;
+  font-weight: 700;
 }
 
 h3 {
+  font-weight: 700;
+
   font-size: 16px;
 }
 

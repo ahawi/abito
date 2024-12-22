@@ -1,3 +1,31 @@
+@use "../vars";
+
 .card {
-    
+  &__image {
+    border-radius: vars.$border-radius-card;
+    width: 264px;
+  }
+
+  &__body {
+    &-title {
+      color: vars.$color-accent;
+      padding-top: 12px;
+    }
+
+    &-price {
+      font-weight: 700;
+      padding-top: 5px;
+      font-size: 16px;
+    }
+
+    &-address {
+      color: vars.$color-gray;
+      padding-top: 10px;
+    }
+
+    &-date {
+      color: vars.$color-gray;
+      padding-top: 4px;
+    }
+  }
 }
