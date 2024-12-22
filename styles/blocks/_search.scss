@@ -2,7 +2,6 @@
 
 .search {
   display: flex;
-  //   width: 100%;
   align-items: center;
   background-color: vars.$color-accent;
   border-radius: vars.$border-radius;
@@ -21,5 +20,6 @@
     padding-left: 17px;
     column-gap: 6px;
     font-size: 16px;
+    border-right: 3px solid transparent;
   }
 }

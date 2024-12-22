@@ -9,4 +9,12 @@
   color: vars.$color-light;
   padding-inline: 15px;
   border-radius: vars.$border-radius;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  &:hover {
+    background-color: vars.$color-light;
+    color: vars.$color-dark;
+    border-color: vars.$color-accent;
+  }
 }

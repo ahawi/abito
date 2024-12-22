@@ -10,4 +10,10 @@
     align-items: center;
     column-gap: 25px;
   }
+
+  &__login {
+    &:hover {
+      opacity: 0.6;
+    }
+  }
 }

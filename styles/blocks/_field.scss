@@ -11,5 +11,11 @@
     border-radius: vars.$border-radius;
     border: none;
     padding-inline: 22px;
+
+    &:focus-visible {
+      outline: none;
+    }
   }
+
+
 }
